@@ -18,7 +18,7 @@
           {
             "group": "Inicia",
             "pages": [
-              "quickstart"
+              "inicio"
             ]
           }
         ]
@@ -33,16 +33,13 @@
           {
             "group": "Contactos",
             "pages": [
-              "content/components/accordions",
-              "content/components/accordion-groups",
-              "content/components/callouts",
-              "content/components/cards"
+              "content/contactos/contactos"
             ]
           },
           {
             "group": "Inventario",
             "pages": [
-              "content/components/params",
+              "content/inventario/items-en-venta",
               "content/components/responses",
               "content/components/expandables",
               "content/components/sticky-examples"
