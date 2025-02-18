@@ -40,27 +40,30 @@
             "group": "Inventario",
             "pages": [
               "content/inventario/items-en-venta",
-              "content/components/responses",
-              "content/components/expandables",
-              "content/components/sticky-examples"
+              "content/inventario/grupo-de-items",
+              "content/inventario/valor-inventario",
+              "content/inventario/gestion-de-items",
+              "content/inventario/lista-de-precios",
+              "content/inventario/bodegas"
             ]
           },
           {
             "group": "Facturacion",
             "pages": [
-              "content/components/params",
-              "content/components/responses",
-              "content/components/expandables",
-              "content/components/sticky-examples"
+              "content/facturacion/facturas-de-venta",
+              "content/facturacion/pagos-recibidos",
+              "content/facturacion/notas-de-credito",
+              "content/facturacion/remisiones",
+              "content/facturacion/pagos-recibidos-remisiones",
+              "content/facturacion/cotizaciones"
             ]
           },
           {
             "group": "Facturacion POS",
             "pages": [
-              "content/components/params",
-              "content/components/responses",
-              "content/components/expandables",
-              "content/components/sticky-examples"
+              "content/facturacion-pos/facturacion-pos",
+              "content/facturacion-pos/turnos",
+              "content/facturacion-pos/notas-de-credito-pos"
             ]
           },
           {
