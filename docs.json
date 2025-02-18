@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Mintlify",
+  "name": "Gestoru",
   "colors": {
     "primary": "#0D9373",
     "light": "#55D799",
@@ -11,12 +11,12 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Getting Started",
+        "dropdown": "Inicio",
         "icon": "book",
-        "description": "Set up your documentation",
+        "description": "Documentacion oficial de Gestoru",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Inicia",
             "pages": [
               "quickstart",
               {
@@ -160,101 +160,143 @@
           }
         ]
       },
+
+
       {
-        "dropdown": "Components",
-        "icon": "block-brick",
-        "description": "Component library",
+        "dropdown": "ERP",
+        "icon": "grid",
+        "description": "Todos los modulos del sistema",
         "groups": [
           {
-            "group": "Components",
+            "group": "Contactos",
             "pages": [
               "content/components/accordions",
               "content/components/accordion-groups",
               "content/components/callouts",
-              "content/components/cards",
-              "content/components/card-groups",
-              "content/components/code",
-              "content/components/code-groups",
-              "content/components/frames",
-              "content/components/icons",
-              "content/components/mermaid-diagrams",
-              "content/components/steps",
-              "content/components/tabs",
-              "content/components/tooltips",
-              "content/components/update"
+              "content/components/cards"
             ]
           },
           {
-            "group": "API Components",
+            "group": "Inventario",
             "pages": [
               "content/components/params",
               "content/components/responses",
               "content/components/expandables",
               "content/components/sticky-examples"
             ]
+          },
+          {
+            "group": "Facturacion",
+            "pages": [
+              "content/components/params",
+              "content/components/responses",
+              "content/components/expandables",
+              "content/components/sticky-examples"
+            ]
+          },
+          {
+            "group": "Facturacion POS",
+            "pages": [
+              "content/components/params",
+              "content/components/responses",
+              "content/components/expandables",
+              "content/components/sticky-examples"
+            ]
+          },
+          {
+            "group": "CRM Flexible",
+            "pages": [
+              "content/components/params",
+              "content/components/responses",
+              "content/components/expandables",
+              "content/components/sticky-examples"
+            ]
+          },
+          {
+            "group": "Compras",
+            "pages": [
+              "content/components/params",
+              "content/components/responses",
+              "content/components/expandables",
+              "content/components/sticky-examples"
+            ]
+          },
+          {
+            "group": "Nomina",
+            "pages": [
+              "content/components/params",
+              "content/components/responses",
+              "content/components/expandables",
+              "content/components/sticky-examples"
+            ]
+          },
+          {
+            "group": "Bancos",
+            "pages": [
+              "content/components/params"
+            ]
+          },
+          {
+            "group": "Reportes",
+            "pages": [
+              "quickstart",
+              {
+                "group": "Reportes del sistems",
+                "icon": "bolt",
+                "pages": ["development", "web-editor"]
+              }
+            ]
+          },
+          {
+            "group": "Configuración",
+            "pages": [
+              "quickstart",
+              {
+                "group": "Editing",
+                "icon": "pen-paintbrush",
+                "pages": ["development", "web-editor"]
+              }
+            ]
+          },
+          {
+            "group": "Mi Pagina Web",
+            "pages": [
+              "content/components/params"
+            ]
+          },
+          {
+            "group": "Soporte",
+            "pages": [
+              "content/components/params"
+            ]
           }
         ]
       },
+
+
+
       {
-        "dropdown": "Integrations",
-        "icon": "plug",
-        "description": "Connect your providers",
+        "dropdown": "Asistente DIAN",
+        "icon": "handshake-angle",
+        "description": "Tu asiste para habilitación DIAN",
         "groups": [
           {
-            "group": "Analytics",
+            "group": "Facturacion Electronica",
             "pages": [
-              "integrations/analytics/overview",
-              "integrations/analytics/amplitude",
-              "integrations/analytics/clearbit", 
-              "integrations/analytics/fathom",
-              "integrations/analytics/google-analytics",
-              "integrations/analytics/google-tag-manager",
-              "integrations/analytics/heap",
-              "integrations/analytics/hotjar",
-              "integrations/analytics/koala",
-              "integrations/analytics/logrocket",
-              "integrations/analytics/mixpanel",
-              "integrations/analytics/pirsch",
-              "integrations/analytics/plausible",
-              "integrations/analytics/posthog",
-              "integrations/analytics/segment"
+              "integrations/analytics/overview"
             ]
           },
           {
-            "group": "SDKs",
+            "group": "Nomina Electronica",
             "pages": [
-              "integrations/sdks/speakeasy",
-              "integrations/sdks/stainless"
+              "integrations/sdks/speakeasy"
             ]
-          },
-          {
-            "group": "Support",
-            "pages": [
-              "integrations/support/overview",
-              "integrations/support/intercom",
-              "integrations/support/front"
-            ]
-          },
-          {
-            "group": "Privacy",
-            "pages": [
-              "integrations/privacy/overview",
-              "integrations/privacy/osano"
-            ]
-          }
-        ]
-      },
-      {
-        "dropdown": "Changelog",
-        "icon": "list-timeline",
-        "description": "Updates and changes",
-        "groups": [
-          {
-            "group": "Changelog",
-            "pages": ["changelog/overview"]
           }
         ]
       }
+
+
+
     ]
   },
   "logo": {
