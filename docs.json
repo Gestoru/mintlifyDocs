@@ -69,34 +69,39 @@
           {
             "group": "CRM Flexible",
             "pages": [
-              "content/components/params",
-              "content/components/responses",
-              "content/components/expandables",
-              "content/components/sticky-examples"
+              "content/crm/contactos",
+              "content/crm/cotizaciones",
+              "content/crm/informe",
+              "content/crm/inventario",
+              "content/crm/metas"
             ]
           },
           {
             "group": "Compras",
             "pages": [
-              "content/components/params",
-              "content/components/responses",
-              "content/components/expandables",
-              "content/components/sticky-examples"
+              "content/compras/facturas-proveedores",
+              "content/compras/pagos-egresos",
+              "content/compras/notas-debito",
+              "content/compras/ordenes-compra",
+              "content/compras/pagos-recurrentes",
+              "content/compras/documentos-soporte",
+              "content/compras/recepcion-comprobante"
             ]
           },
           {
             "group": "Nomina",
             "pages": [
-              "content/components/params",
-              "content/components/responses",
-              "content/components/expandables",
-              "content/components/sticky-examples"
+              "content/nomina/personas",
+              "content/nomina/liquidar-nomina",
+              "content/nomina/historial-periodos",
+              "content/nomina/contabilidad",
+              "content/nomina/asistente-habilitacion"
             ]
           },
           {
             "group": "Bancos",
             "pages": [
-              "content/components/params"
+              "content/bancos/inicio"
             ]
           },
           {
@@ -124,13 +129,13 @@
           {
             "group": "Mi Pagina Web",
             "pages": [
-              "content/components/params"
+              "content/pag-web/inicio"
             ]
           },
           {
             "group": "Soporte",
             "pages": [
-              "content/components/params"
+              "content/soporte/inicio"
             ]
           }
         ]
