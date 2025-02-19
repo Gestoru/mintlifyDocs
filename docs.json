@@ -178,9 +178,72 @@
             "pages": [
               "content/configuracion/inicio",
               {
+                "group": "Empresa",
+                "icon": "building",
+                "pages": [
+                  "content/configuracion/empresa/empresa",
+                  "content/configuracion/empresa/usuarios",
+                  "content/configuracion/empresa/tipos-usuarios",
+                  "content/configuracion/empresa/perfil",
+                  "content/configuracion/empresa/seguridad",
+                  "content/configuracion/empresa/etiquetas"
+                ]
+              },
+              {
                 "group": "Editing",
                 "icon": "pen-paintbrush",
                 "pages": ["development", "web-editor"]
+              },
+              {
+                "group": "Editing",
+                "icon": "pen-paintbrush",
+                "pages": ["development", "web-editor"]
+              },
+              {
+                "group": "Compras",
+                "icon": "bag-shopping",
+                "pages": [
+                  "content/configuracion/compras/modulo-comprobantes",
+                  "content/configuracion/compras/modulo-remision-proveedores"
+                ]
+              },
+              {
+                "group": "Documento soporte",
+                "icon": "ticket",
+                "pages": [
+                  "content/configuracion/documento-soporte/habilitar-documento-soporte"
+                ]
+              },
+              {
+                "group": "Impuestos",
+                "icon": "percent",
+                "pages": [
+                  "content/configuracion/impuestos/impuestos",
+                  "content/configuracion/impuestos/retenciones"
+                ]
+              },
+              {
+                "group": "Contactos",
+                "icon": "users",
+                "pages": [
+                  "content/configuracion/contactos/tipos",
+                  "content/configuracion/contactos/asociar-guia-envio"
+                ]
+              },
+              {
+                "group": "Campos extras",
+                "icon": "database",
+                "pages": [
+                  "content/configuracion/campos-extras/campos"
+                ]
+              },
+              {
+                "group": "Planes",
+                "icon": "shop",
+                "pages": [
+                  "content/configuracion/plans/pagos",
+                  "content/configuracion/plans/planes"
+                ]
               }
             ]
           },
