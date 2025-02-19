@@ -7,7 +7,7 @@
     "light": "#55D799",
     "dark": "#0D9373"
   },
-  "favicon": "https://principal.gestoru.com/wp-content/uploads/2022/05/Gestoru-Favicon.png",
+  "favicon": "/favicon.svg",
   "navigation": {
     "dropdowns": [
       {
@@ -107,10 +107,41 @@
           {
             "group": "Reportes",
             "pages": [
-              "quickstart",
+              "content/reportes/inicio",
               {
-                "group": "Reportes del sistems",
+                "group": "Reportes de ventas",
                 "icon": "bolt",
+                "pages": [
+                  "content/reportes/reportes-ventas/ventas",
+                  "content/reportes/reportes-ventas/ventas-pos",
+                  "content/reportes/reportes-ventas/ventas-cliente",
+                  "content/reportes/reportes-ventas/remisiones",
+                  "content/reportes/reportes-ventas/envio-remisiones",
+                  "content/reportes/reportes-ventas/contrato-devoluciones",
+                  "content/reportes/reportes-ventas/reportestxt",
+                  "content/reportes/reportes-ventas/reportes-tracking",
+                  "content/reportes/reportes-ventas/seguimiento-tracking",
+                  "content/reportes/reportes-ventas/adjuntos",
+                  "content/reportes/reportes-ventas/facturas",
+                  "content/reportes/reportes-ventas/retenciones-iva",
+                  "content/reportes/reportes-ventas/retenciones-ica",
+                  "content/reportes/reportes-ventas/pagos-facturas-remisiones",
+                  "content/reportes/reportes-ventas/contactos",
+                  "content/reportes/reportes-ventas/crm",
+                  "content/reportes/reportes-ventas/general",
+                  "content/reportes/reportes-ventas/general-smcg",
+                  "content/reportes/reportes-ventas/cotizaciones",
+                  "content/reportes/reportes-ventas/anexos"
+                ]
+              },
+              {
+                "group": "Reportes Administrativo",
+                "icon": "chart-line",
+                "pages": ["development", "web-editor"]
+              },
+              {
+                "group": "Reportes Logisticos",
+                "icon": "box",
                 "pages": ["development", "web-editor"]
               }
             ]
