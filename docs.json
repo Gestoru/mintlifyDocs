@@ -176,7 +176,7 @@
           {
             "group": "Configuración",
             "pages": [
-              "quickstart",
+              "content/configuracion/inicio",
               {
                 "group": "Editing",
                 "icon": "pen-paintbrush",
