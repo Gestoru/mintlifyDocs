@@ -163,7 +163,13 @@
               {
                 "group": "Reportes Logisticos",
                 "icon": "box",
-                "pages": ["development", "web-editor"]
+                "pages": [
+                  "content/reportes/reportes-logisticos/resume-items",
+                  "content/reportes/reportes-logisticos/ventas-items-agrupal",
+                  "content/reportes/reportes-logisticos/ventas-items-individual",
+                  "content/reportes/reportes-logisticos/todos-items-compra",
+                  "content/reportes/reportes-logisticos/remisiones-items"
+                ]
               }
             ]
           },
