@@ -137,7 +137,28 @@
               {
                 "group": "Reportes Administrativo",
                 "icon": "chart-line",
-                "pages": ["development", "web-editor"]
+                "pages": [
+                  "content/reportes/reportes-administrativos/estado-cuenta-cliente",
+                  "content/reportes/reportes-administrativos/notas-credito",
+                  "content/reportes/reportes-administrativos/reporte-anticipo-notas",
+                  "content/reportes/reportes-administrativos/creditos-negocios",
+                  "content/reportes/reportes-administrativos/compras",
+                  "content/reportes/reportes-administrativos/compras-proveedor",
+                  "content/reportes/reportes-administrativos/documentos-soporte",
+                  "content/reportes/reportes-administrativos/transacciones-compra",
+                  "content/reportes/reportes-administrativos/compras-no-cumplidas",
+                  "content/reportes/reportes-administrativos/exportaciones-siigo",
+                  "content/reportes/reportes-administrativos/administrativo",
+                  "content/reportes/reportes-administrativos/cuentas-cobrar",
+                  "content/reportes/reportes-administrativos/ingresos-egresos",
+                  "content/reportes/reportes-administrativos/transacciones",
+                  "content/reportes/reportes-administrativos/informes-contables",
+                  "content/reportes/reportes-administrativos/notas-contables",
+                  "content/reportes/reportes-administrativos/reporte-administracion-pyg",
+                  "content/reportes/reportes-administrativos/estado-cuenta-excel",
+                  "content/reportes/reportes-administrativos/gastosopex",
+                  "content/reportes/reportes-administrativos/clientes-360"
+                ]
               },
               {
                 "group": "Reportes Logisticos",
