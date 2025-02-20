@@ -24,7 +24,6 @@
         ]
       },
 
-
       {
         "dropdown": "ERP",
         "icon": "grid",
@@ -71,7 +70,6 @@
               "content/crm/contactos",
               "content/crm/cotizaciones",
               "content/crm/informe",
-              "content/crm/inventario",
               "content/crm/metas"
             ]
           },
@@ -242,6 +240,22 @@
                 "pages": [
                   "content/configuracion/plans/pagos",
                   "content/configuracion/plans/planes"
+                ]
+              },
+              {
+                "group": "Contabilidad",
+                "icon": "calculator",
+                "pages": [
+                  "content/configuracion/contabilidad/gestionar-categorias",
+                  "content/configuracion/contabilidad/asociar-puc-movimientos"
+                ]
+              },
+              {
+                "group": "Sedes",
+                "icon": "map",
+                "pages": [
+                  "content/configuracion/sedes/sedes",
+                  "content/configuracion/sedes/nueva-sede"
                 ]
               }
             ]
