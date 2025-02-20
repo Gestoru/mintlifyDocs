@@ -187,9 +187,22 @@
                 ]
               },
               {
-                "group": "Editing",
-                "icon": "pen-paintbrush",
-                "pages": ["development", "web-editor"]
+                "group": "Facturacion Electronica",
+                "icon": "file-invoice",
+                "pages": [
+                  "content/configuracion/facturacion/terminos",
+                  "content/configuracion/facturacion/numeraciones",
+                  "content/configuracion/facturacion/datos-generales",
+                  "content/configuracion/facturacion/vendedores",
+                  "content/configuracion/facturacion/facturacion-terceros",
+                  "content/configuracion/facturacion/contrato-documentos-emitidos",
+                  "content/configuracion/facturacion/factura-exportacion",
+                  "content/configuracion/facturacion/trm-manual",
+                  "content/configuracion/facturacion/bloqueos-especiales",
+                  "content/configuracion/facturacion/saldo-pendiente-pdf",
+                  "content/configuracion/facturacion/remision-alternativa",
+                  "content/configuracion/facturacion/placa-factura"
+                ]
               },
               {
                 "group": "Facturacion POS",
