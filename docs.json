@@ -104,7 +104,6 @@
           {
             "group": "Reportes",
             "pages": [
-              "content/reportes/inicio",
               {
                 "group": "Reportes de ventas",
                 "icon": "bolt",
