@@ -192,9 +192,13 @@
                 "pages": ["development", "web-editor"]
               },
               {
-                "group": "Editing",
-                "icon": "pen-paintbrush",
-                "pages": ["development", "web-editor"]
+                "group": "Facturacion POS",
+                "icon": "file-invoice-dollar",
+                "pages": [
+                  "content/configuracion/facturacion-pos/terminos-pago",
+                  "content/configuracion/facturacion-pos/numeraciones",
+                  "content/configuracion/facturacion-pos/datos-tirilla"
+                ]
               },
               {
                 "group": "Compras",
