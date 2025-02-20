@@ -257,6 +257,20 @@
                   "content/configuracion/sedes/sedes",
                   "content/configuracion/sedes/nueva-sede"
                 ]
+              },
+              {
+                "group": "Inventario",
+                "icon": "box",
+                "pages": [
+                  "content/configuracion/inventario/codigo-barras"
+                ]
+              },
+              {
+                "group": "Columnas tablas",
+                "icon": "grip",
+                "pages": [
+                  "content/configuracion/tablas/columnas-tablas"
+                ]
               }
             ]
           },
