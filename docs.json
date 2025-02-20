@@ -142,18 +142,12 @@
                   "content/reportes/reportes-administrativos/compras-proveedor",
                   "content/reportes/reportes-administrativos/documentos-soporte",
                   "content/reportes/reportes-administrativos/transacciones-compra",
-                  "content/reportes/reportes-administrativos/compras-no-cumplidas",
                   "content/reportes/reportes-administrativos/exportaciones-siigo",
                   "content/reportes/reportes-administrativos/administrativo",
                   "content/reportes/reportes-administrativos/cuentas-cobrar",
                   "content/reportes/reportes-administrativos/ingresos-egresos",
                   "content/reportes/reportes-administrativos/transacciones",
-                  "content/reportes/reportes-administrativos/informes-contables",
-                  "content/reportes/reportes-administrativos/notas-contables",
-                  "content/reportes/reportes-administrativos/reporte-administracion-pyg",
-                  "content/reportes/reportes-administrativos/estado-cuenta-excel",
-                  "content/reportes/reportes-administrativos/gastosopex",
-                  "content/reportes/reportes-administrativos/clientes-360"
+                  "content/reportes/reportes-administrativos/reporte-administracion-pyg"
                 ]
               },
               {
@@ -305,23 +299,33 @@
         ]
       },
 
-
-
       {
         "dropdown": "Asistente DIAN",
         "icon": "handshake-angle",
         "description": "Tu asiste para habilitación DIAN",
         "groups": [
           {
-            "group": "Facturacion Electronica",
+            "group": "Facturacion electronica",
             "pages": [
-              "integrations/analytics/overview"
+              "content/asistente_dian/facturacion/resolucion"
             ]
           },
           {
-            "group": "Nomina Electronica",
+            "group": "Habilitacion DIAN",
             "pages": [
-              "integrations/sdks/speakeasy"
+              "content/asistente_dian/dian/habilitacion"
+            ]
+          },
+          {
+            "group": "Resolucion contingencia",
+            "pages": [
+              "content/asistente_dian/contingencia/habilitacion"
+            ]
+          },
+          {
+            "group": "Facturacion electronica POS",
+            "pages": [
+              "content/asistente_dian/documento-soporte/habilitacion"
             ]
           }
         ]
