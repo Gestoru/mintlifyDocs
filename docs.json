@@ -176,7 +176,7 @@
                   "content/configuracion/empresa/etiquetas"
                 ]
               },
-              {
+                {
                 "group": "Facturacion Electronica",
                 "icon": "file-invoice",
                 "pages": [
@@ -188,12 +188,9 @@
                   "content/configuracion/facturacion/contrato-documentos-emitidos",
                   "content/configuracion/facturacion/factura-exportacion",
                   "content/configuracion/facturacion/trm-manual",
-                  "content/configuracion/facturacion/bloqueos-especiales",
-                  "content/configuracion/facturacion/saldo-pendiente-pdf",
-                  "content/configuracion/facturacion/remision-alternativa",
-                  "content/configuracion/facturacion/placa-factura"
+                  "content/configuracion/facturacion/bloqueos-especiales"
                 ]
-              },
+                },
               {
                 "group": "Facturacion POS",
                 "icon": "file-invoice-dollar",
