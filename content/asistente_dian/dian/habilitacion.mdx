@@ -3,3 +3,208 @@ title: "Habilitacion facturador"
 description: "Aprende a habilitar tu facturador para poder emitir facturas electrónicas."
 icon: "shop"
 ---
+
+## Creación y Configuración de la Empresa
+
+*Descripción breve:*  
+Permite registrar y configurar la información de la empresa en Gestoru, asegurando que los datos (razón social, NIT y régimen fiscal) sean consistentes con los registros oficiales de la DIAN.
+
+*Características principales:*
+- Registro de datos básicos (razón social, NIT, régimen fiscal).
+- Validación de información sin caracteres especiales (por ejemplo, el uso de "&").
+
+<Steps>
+  <Step title="Ingresar a Gestoru">
+    Accede al módulo de configuración en Gestoru.
+  </Step>
+  <Step title="Crear la empresa">
+    Ingresa la razón social, NIT y régimen fiscal de la empresa.
+  </Step>
+  <Step title="Validar la información">
+    Confirma que la información no contenga caracteres especiales y sea coherente con el RUT.
+  </Step>
+</Steps>
+
+<Tip>
+El nombre de la empresa en la DIAN debe coincidir exactamente con el registrado en el RUT.
+</Tip>
+
+*Recursos adicionales:*
+- [Ver cómo crear empresa](https://ayuda.gestoru.com/ayuda/habilitacion-dian/creacion-empresa)
+- [Imagen: Formulario de creación de empresa]
+- [Video: Configuración paso a paso en Gestoru]
+
+---
+
+## Habilitación en la Plataforma DIAN
+
+*Descripción breve:*  
+Establece el proceso de habilitación en la plataforma DIAN, permitiendo registrar la solicitud para emitir facturas electrónicas y configurar los modos de operación.
+
+*Características principales:*
+- Acceso al [Portal DIAN](https://www.dian.gov.co) y selección de “Temas de interés” > “Habilitación”.
+- Elección del tipo de empresa (Jurídica o Persona Natural).
+- Configuración del modo de operación y copia del código del set de pruebas.
+
+<Steps>
+  <Step title="Acceder al portal DIAN">
+    Inicia sesión en el [Portal DIAN](https://www.dian.gov.co) y navega a “Temas de interés” > “Habilitación”.
+  </Step>
+  <Step title="Seleccionar el tipo de empresa">
+    Elige entre Empresa Jurídica o Persona Natural.
+  </Step>
+  <Step title="Registrar datos y configurar modos de operación">
+    Envía la solicitud y, en “Registro y habilitación”, haz clic en <strong>Configurar modos de operación</strong>.
+  </Step>
+  <Step title="Seleccionar el modo de operación">
+    Selecciona el modo <em>Software de proveedor tecnológico</em> con:
+    - Proveedor: <em>Cadena S.A</em>
+    - Software: <em>890930534efacturacadena</em>
+  </Step>
+  <Step title="Copiar el código de pruebas">
+    Copia el código del set de pruebas que te envía la DIAN.
+  </Step>
+</Steps>
+
+<Tip>
+Solicita al cliente reenviar el correo de confirmación enviado por la DIAN para asegurar la correcta habilitación.
+</Tip>
+
+*Recursos adicionales:*
+- [Ver cómo habilitar en la DIAN](https://ayuda.gestoru.com/ayuda/habilitacion-dian/habilitacion-dian)
+- [Imagen: Portal DIAN en sección de habilitación]
+- [Video: Configuración de modos de operación en la DIAN]
+
+---
+
+## Configuración del Set de Pruebas
+
+*Descripción breve:*  
+Configura el set de pruebas en Gestoru ingresando el código de prueba proporcionado por la DIAN, lo que permite activar el ambiente de pruebas para la facturación electrónica.
+
+*Características principales:*
+- Pegado y validación del código de prueba.
+- Activación de la facturación electrónica.
+- Configuración de la responsabilidad fiscal y validación del NIT.
+
+<Steps>
+  <Step title="Pegar el código de prueba">
+    Copia el código de prueba recibido de la DIAN y pégalo en el formulario de Gestoru.
+  </Step>
+  <Step title="Activar la facturación electrónica">
+    Haz clic en el botón para activar el sistema.
+  </Step>
+  <Step title="Agregar la responsabilidad fiscal">
+    Selecciona la opción <strong>No responsable PN (R-99-PN)</strong>.
+  </Step>
+  <Step title="Configurar la resolución de pruebas">
+    Ingresa el código del test DIAN y verifica que el NIT esté registrado y sin errores.
+  </Step>
+  <Step title="Guardar la configuración">
+    Guarda los cambios y espera la confirmación de activación.
+  </Step>
+</Steps>
+
+<Tip>
+Si la habilitación falla, revisa el correo de la DIAN para identificar posibles errores en la configuración.
+</Tip>
+
+*Recursos adicionales:*
+- [Ver cómo configurar set de pruebas](https://ayuda.gestoru.com/ayuda/habilitacion-dian/set-pruebas)
+- [Imagen: Formulario de configuración del set de pruebas]
+- [Video: Validación del set de pruebas en Gestoru]
+
+---
+
+## Asociación de la Resolución de Facturación
+
+*Descripción breve:*  
+Asocia la resolución de facturación emitida por la DIAN, lo que permite la numeración autorizada necesaria para emitir facturas electrónicas.
+
+*Características principales:*
+- Acceso a la sección “Facturando electrónicamente” en el portal DIAN.
+- Configuración de rangos de numeración, seleccionando el proveedor y el prefijo autorizado.
+- Validación y registro de la resolución en la DIAN.
+
+<Steps>
+  <Step title="Acceder al portal DIAN">
+    Ingresa al [Portal DIAN](https://www.dian.gov.co) y dirígete a “Facturando electrónicamente”.
+  </Step>
+  <Step title="Seleccionar el tipo de empresa">
+    Elige la opción correspondiente: Empresa Jurídica o Persona Natural.
+  </Step>
+  <Step title="Registrar la solicitud">
+    Envía la solicitud y espera la confirmación por correo.
+  </Step>
+  <Step title="Configurar rangos de numeración">
+    En “Configuración” > “Rangos de numeración”, selecciona el proveedor <em>Cadena S.A</em> y define el prefijo autorizado.
+  </Step>
+  <Step title="Guardar la resolución">
+    Confirma la asociación y guarda la configuración.
+  </Step>
+</Steps>
+
+<Tip>
+Verifica que el prefijo seleccionado en la DIAN coincida con el que se utilizará en Gestoru.
+</Tip>
+
+*Recursos adicionales:*
+- [Ver cómo asociar la resolución](https://ayuda.gestoru.com/ayuda/habilitacion-dian/asociacion-resolucion)
+- [Imagen: Ejemplo de asociación de resolución en la DIAN]
+- [Video: Asociación de resolución paso a paso]
+
+---
+
+## Asociación de la Resolución en Gestoru
+
+*Descripción breve:*  
+Registra y asocia la resolución de facturación en Gestoru, permitiendo el uso de la numeración autorizada para la emisión de facturas electrónicas.
+
+*Características principales:*
+- Acceso al submódulo “Numeraciones” dentro de Gestoru.
+- Creación y registro de la nueva numeración.
+- Asociación de la resolución con el prefijo correcto.
+
+<Steps>
+  <Step title="Acceder al submódulo de Numeraciones">
+    Dirígete a “Configuración” > “Facturación” > “Numeraciones” en Gestoru.
+  </Step>
+  <Step title="Crear la nueva numeración">
+    Ingresa los datos correspondientes a la resolución emitida por la DIAN.
+  </Step>
+  <Step title="Guardar y asociar la resolución">
+    Guarda la numeración y haz clic en <strong>Asociar resolución</strong>.
+  </Step>
+  <Step title="Confirmar la asociación">
+    Verifica que la resolución se haya habilitado correctamente para la emisión de facturas.
+  </Step>
+</Steps>
+
+<Tip>
+Si manejas múltiples numeraciones, asegúrate de definir claramente los prefijos para cada tipo de factura.
+</Tip>
+
+*Recursos adicionales:*
+- [Ver cómo asociar en Gestoru](https://ayuda.gestoru.com/ayuda/habilitacion-dian/asociacion-gestoru)
+- [Imagen: Submódulo “Numeraciones” en Gestoru]
+- [Video: Asociación de resolución en Gestoru]
+
+---
+
+## Recomendaciones Generales
+
+<Note>
+- Guarda el código del set de pruebas para futuras configuraciones.
+- Solicita el correo de confirmación de la DIAN y verifica que coincida con el registrado en el RUT.
+- Valida el estado de habilitación antes de emitir la primera factura.
+- Conserva las resoluciones para auditorías o revisiones fiscales.
+</Note>
+
+---
+
+## Recursos Adicionales
+
+- [Centro de ayuda](https://ayuda.gestoru.com)
+- [Crear y configurar empresa](https://ayuda.gestoru.com/ayuda/habilitacion-dian/creacion-empresa)
+- [Asociar resolución en la DIAN](https://ayuda.gestoru.com/ayuda/habilitacion-dian/asociacion-resolucion)
+- [Asociar resolución en Gestoru](https://ayuda.gestoru.com/ayuda/habilitacion-dian/asociacion-gestoru)
